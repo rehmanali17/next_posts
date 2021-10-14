@@ -1,0 +1,39 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+}
+
+.image{
+    margin-left: 30px;
+    animation: rotate 3s linear infinite reverse;
+}
+
+.links{
+    width: 20vw;
+    margin-right: 30px;
+    display: flex;
+    justify-content: space-around;
+    font-size: 17px;
+    color: #0070f3;
+}
+
+.footer{
+    width: 60vw;
+    position: relative;
+    left: calc(50% - 30vw);
+    color: #0070f3;
+    text-align: center;
+    border-top: 1px solid #777;
+    padding-top: 20px;
+}
+
+@keyframes rotate {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}

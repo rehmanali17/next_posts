@@ -14,3 +14,25 @@ a {
 * {
   box-sizing: border-box;
 }
+._404{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: calc(100vh - 200px );
+}
+
+._404 p{
+  font-size: 22px;
+  color: red;
+}
+
+._404link{
+  color: #0070f3;
+}
+
+.center{
+  text-align: center;
+  cursor: pointer;
+}
